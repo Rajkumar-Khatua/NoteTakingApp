@@ -4,12 +4,16 @@ import { serverTimestamp } from "firebase/firestore";
 
 // Define color options
 const colorOptions = [
-  "#FFD700",
-  "#87CEEB",
-  "#98FB98",
-  "#FFA07A",
-  "#DDA0DD",
-  "#F0E68C",
+  "#FF5733",
+  "#33FF57",
+  "#3357FF",
+  "#F4D03F",
+  "#D0D3D4",
+  "#5B2C6F",
+  "#17202A",
+  "#F1948A",
+  "#48C9B0",
+  "#F39C12",
 ];
 
 const EditNoteForm = ({ note, editNote, onCloseForm }) => {
