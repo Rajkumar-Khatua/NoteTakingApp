@@ -14,12 +14,12 @@ import { RingLoader } from "react-spinners";
 
 const colorOptions = [
   "#FF5733",
-  "#33FF57", 
-  "#3357FF", 
-  "#F4D03F", 
+  "#33FF57",
+  "#3357FF",
+  "#F4D03F",
   "#D0D3D4",
-  "#5B2C6F", 
-  "#17202A", 
+  "#5B2C6F",
+  "#17202A",
   "#F1948A",
   "#48C9B0",
   "#F39C12",
@@ -196,7 +196,7 @@ const AddNoteForm = ({ addNote, selectedNote, onCloseForm }) => {
               value={newNote.body}
               onChange={handleChange}
               placeholder="Body..."
-              className={`w-full px-3 py-2  placeholder-gray-700 focus:outline-none bg-transparent ${
+              className={`w-full px-3 py-2 placeholder-gray-700 focus:outline-none bg-transparent ${
                 isSmallScreen ? "h-64" : "h-32"
               } scrollbar-hide`}
             ></textarea>
